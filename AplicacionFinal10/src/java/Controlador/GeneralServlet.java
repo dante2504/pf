@@ -43,7 +43,7 @@ public class GeneralServlet extends HttpServlet {
             break;
             }
                         case 5:{
-                getServletContext().getRequestDispatcher("/Vista/Seguridad/Estudiante/Loginstudent.jsp").forward(request, response);
+                getServletContext().getRequestDispatcher("/Vista/Contacto/contact.jsp").forward(request, response);
             break;
             }
             
