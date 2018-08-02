@@ -1,0 +1,16 @@
+CREATE DATABASE  BDPRUEBA ;
+USE BDPRUEBA ;
+
+
+CREATE TABLE IF NOT EXISTS `persona` 
+(
+  `CODPERSO` int(11) NOT NULL,
+  `NOMBPERSO` varchar(50) NOT NULL,
+  `APELLIPERSO` varchar(50) NOT NULL,
+   PRIMARY KEY(CODPERSO)
+) ;
+INSERT INTO `persona` (`CODPERSO`, `NOMBPERSO`, `APELLIPERSO`) VALUES
+(1, 'IVAN', 'PETRLIK'),
+(2, 'Roberto', 'Gonzales'),
+(3, 'Anselmo', 'vergara'),
+(4, 'Jorge', 'Mayhuasca');
