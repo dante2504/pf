@@ -58,7 +58,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<span class="icon-bar"></span>
 							</button>				  
 							<div class="navbar-brand">
-								<h1><a href="index.jsp">GRUPO   <span>CERO</span></a></h1>
+								<h1><a href="index.jsp">Administrador</a></h1>
 							</div>
 						</div>
 
@@ -70,8 +70,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									
 									<li><a href="<%=request.getContextPath()%>/GeneralServlet?op=2">Mostrar Datos</a></li>
 									
-									<li><a href="<%=request.getContextPath()%>/GeneralServlet?op=3">Actualizar Informacion</a></li>
-									<li><a href="<%=request.getContextPath()%>/GeneralServlet?op=4">NOTAS</a></li>
+									<li><a href="<%=request.getContextPath()%>/GeneralServlet?op=3">Registrar</a></li>
+								
 									<li><a href="<%=request.getContextPath()%>/GeneralServlet?op=5">Cerrar sesion </a></li>
 								</ul>
 							</nav>

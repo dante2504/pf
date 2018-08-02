@@ -1,15 +1,22 @@
-<%-- 
-    Document   : FrmPrincipalAlumno
-    Created on : Jul 21, 2018, 4:54:31 PM
-    Author     : Dante Quispe
---%>
+<%@page    import="java.util.ArrayList"       %>
+<%@page    import="Bean.StudentBean"%>
+<%@page session="true"%>
+
+<%
+    if(session.getAttribute("datos")==null) {
+        response.sendRedirect("Vista/Acceso/index_1.jsp");
+    }
+%>
+
+<% StudentBean objEstu=null; %>
+<% objEstu=(StudentBean)session.getAttribute("datos");%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Principal Administrador</title>
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
         <!--css-->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -32,20 +39,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </head>
     <body>
         <div class="header">
-			<div class="header-top">
-				<div class="container">
-					<div class="detail">
-						<ul>
-							<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i> 970-616-267</li>
-							<li><i class="glyphicon glyphicon-time" aria-hidden="true"></i> Sabados 9:00 Am a 16:00 Pm </li>
-						</ul>
-					</div>
-					<div class="indicate">
-						<p><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>General Los olivenses, Los olivos.</p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
+		
 			<div class="container">
 				<nav class="navbar navbar-default">
 					<div class="container-fluid">
@@ -58,7 +52,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<span class="icon-bar"></span>
 							</button>				  
 							<div class="navbar-brand">
-								<h1><a href="index.jsp">GRUPO   <span>CERO</span></a></h1>
+								<h1><a href="index.jsp">Datos de Administrador</a></h1>
 							</div>
 						</div>
 
@@ -68,11 +62,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<ul class="nav navbar-nav">
 									
 									
-									<li><a href="<%=request.getContextPath()%>/GeneralServlet?op=2">Mostrar Datos</a></li>
+									<li><a href="<%=request.getContextPath()%>/Studentservlet?op=3">Mostrar Datos</a></li>
 									
-									<li><a href="<%=request.getContextPath()%>/GeneralServlet?op=3">Actualizar Informacion</a></li>
-									<li><a href="<%=request.getContextPath()%>/GeneralServlet?op=4">NOTAS</a></li>
-									<li><a href="<%=request.getContextPath()%>/GeneralServlet?op=5">Cerrar sesion </a></li>
+									<li><a href="<%=request.getContextPath()%>/Studentservlet?op=4">Actualizar Informacion</a></li>
+									<li><a href="<%=request.getContextPath()%>/Studentservlet?op=5">NOTAS</a></li>
+									<li><a href="<%=request.getContextPath()%>/Studentservlet?op=6">Cerrar sesion </a></li>
 								</ul>
 							</nav>
 						</div>
@@ -80,5 +74,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</nav>
 			</div>
 		</div>
+   
     </body>
 </html>
+
