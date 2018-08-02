@@ -10,87 +10,88 @@ package Bean;
  * @author Dante Quispe
  */
 public class AdministradorBean {
-      private String COD_DIR;
-       private String PAS_DIR;
-    private String NOMB_DIR;
-    private String APEPAT_DIR;
-    private String APEMAT_DIR;
-    private String USU_DIR;
-    private String PASS_DIR;
-    private String DNI_DIR;
-    private String TEL_DIR;
+      private int CodAdmi;
+       private String PswAdmi;
+    private String NomAdmi;
+    private String ApelliAdmi;
+    private int DniAdmi;
+    private int TelefAdmi;
+    private String DirecAdmi;
+    private String CorreoAdmi;
+    private int EdadApod;
+
+    public int getCodAdmi() {
+        return CodAdmi;
+    }
+
+    public void setCodAdmi(int CodAdmi) {
+        this.CodAdmi = CodAdmi;
+    }
+
+    public String getPswAdmi() {
+        return PswAdmi;
+    }
+
+    public void setPswAdmi(String PswAdmi) {
+        this.PswAdmi = PswAdmi;
+    }
+
+    public String getNomAdmi() {
+        return NomAdmi;
+    }
+
+    public void setNomAdmi(String NomAdmi) {
+        this.NomAdmi = NomAdmi;
+    }
+
+    public String getApelliAdmi() {
+        return ApelliAdmi;
+    }
+
+    public void setApelliAdmi(String ApelliAdmi) {
+        this.ApelliAdmi = ApelliAdmi;
+    }
+
+    public int getDniAdmi() {
+        return DniAdmi;
+    }
+
+    public void setDniAdmi(int DniAdmi) {
+        this.DniAdmi = DniAdmi;
+    }
+
+    public int getTelefAdmi() {
+        return TelefAdmi;
+    }
+
+    public void setTelefAdmi(int TelefAdmi) {
+        this.TelefAdmi = TelefAdmi;
+    }
+
+    public String getDirecAdmi() {
+        return DirecAdmi;
+    }
+
+    public void setDirecAdmi(String DirecAdmi) {
+        this.DirecAdmi = DirecAdmi;
+    }
+
+    public String getCorreoAdmi() {
+        return CorreoAdmi;
+    }
+
+    public void setCorreoAdmi(String CorreoAdmi) {
+        this.CorreoAdmi = CorreoAdmi;
+    }
+
+    public int getEdadApod() {
+        return EdadApod;
+    }
+
+    public void setEdadApod(int EdadApod) {
+        this.EdadApod = EdadApod;
+    }
     
 
-    public String getCOD_DIR() {
-        return COD_DIR;
-    }
-
-    public void setCOD_DIR(String COD_DIR) {
-        this.COD_DIR = COD_DIR;
-    }
-
-    public String getNOMB_DIR() {
-        return NOMB_DIR;
-    }
-
-    public void setNOMB_DIR(String NOMB_DIR) {
-        this.NOMB_DIR = NOMB_DIR;
-    }
-
-    public String getAPEPAT_DIR() {
-        return APEPAT_DIR;
-    }
-
-    public void setAPEPAT_DIR(String APEPAT_DIR) {
-        this.APEPAT_DIR = APEPAT_DIR;
-    }
-
-    public String getAPEMAT_DIR() {
-        return APEMAT_DIR;
-    }
-
-    public void setAPEMAT_DIR(String APEMAT_DIR) {
-        this.APEMAT_DIR = APEMAT_DIR;
-    }
-
-    public String getUSU_DIR() {
-        return USU_DIR;
-    }
-
-    public void setUSU_DIR(String USU_DIR) {
-        this.USU_DIR = USU_DIR;
-    }
-
-    public String getPASS_DIR() {
-        return PASS_DIR;
-    }
-
-    public void setPASS_DIR(String PASS_DIR) {
-        this.PASS_DIR = PASS_DIR;
-    }
-
-    public String getDNI_DIR() {
-        return DNI_DIR;
-    }
-
-    public void setDNI_DIR(String DNI_DIR) {
-        this.DNI_DIR = DNI_DIR;
-    }
-
-    public String getTEL_DIR() {
-        return TEL_DIR;
-    }
-
-    public void setTEL_DIR(String TEL_DIR) {
-        this.TEL_DIR = TEL_DIR;
-    }
-
-    public String getPAS_DIR() {
-        return PAS_DIR;
-    }
-
-    public void setPAS_DIR(String PAS_DIR) {
-        this.PAS_DIR = PAS_DIR;
-    }
-    
+   
 }

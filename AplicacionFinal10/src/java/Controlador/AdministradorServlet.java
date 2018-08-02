@@ -32,12 +32,12 @@ public class AdministradorServlet extends HttpServlet {
            
            }
            case 2:{
-                   String usuario=request.getParameter("txtusua");
+                   int usuario=Integer.parseInt(request.getParameter("txtusua"));
                 String clave=request.getParameter("txtcla");
              
              AdministradorBean  objAdministradorBean=new AdministradorBean();
-                             objAdministradorBean.setCOD_DIR(usuario);
-                             objAdministradorBean.setPAS_DIR(clave);
+                             objAdministradorBean.setCodAdmi(usuario);
+                             objAdministradorBean.setPswAdmi(clave);
              AdministradorDao   objAdmiDao=new AdministradorDao();
                        boolean estado= objAdmiDao.ValidarUsuario(objAdministradorBean);
                      if(estado==true)        

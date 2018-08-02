@@ -10,91 +10,106 @@ package Bean;
  * @author Dante Quispe
  */
 public class StudentBean {
-     private String COD_ALU;
-     private String PAS_ALU;
-    private String NOMB_ALU;
-    private String APEPAT_ALU;
-    private String APEMAT_ALU;
-    private String DNI_ALU;
-    private String FEC_NAC_ALU;
-   
-    private String TURN_ALU;
-    private String TEL_ALU;
-    
 
-    public String getCOD_ALU() {
-        return COD_ALU;
+    private int CodAlum;
+    private String PswAlum;
+    private String NomAlum;
+    private String ApelliAlum;
+    private int DniAlum;
+    private String DirecAlum;
+    private String CorreoAlum;
+    private int TelefAlum;
+    private int EdadAlum;
+    private int CodApod;
+    private int CodMod;
+
+    public int getCodAlum() {
+        return CodAlum;
     }
 
-    public void setCOD_ALU(String COD_ALU) {
-        this.COD_ALU = COD_ALU;
+    public void setCodAlum(int CodAlum) {
+        this.CodAlum = CodAlum;
     }
 
-    public String getNOMB_ALU() {
-        return NOMB_ALU;
+    public String getPswAlum() {
+        return PswAlum;
     }
 
-    public void setNOMB_ALU(String NOMB_ALU) {
-        this.NOMB_ALU = NOMB_ALU;
+    public void setPswAlum(String PswAlum) {
+        this.PswAlum = PswAlum;
     }
 
-    public String getAPEPAT_ALU() {
-        return APEPAT_ALU;
+    public String getNomAlum() {
+        return NomAlum;
     }
 
-    public void setAPEPAT_ALU(String APEPAT_ALU) {
-        this.APEPAT_ALU = APEPAT_ALU;
+    public void setNomAlum(String NombAlum) {
+        this.NomAlum = NomAlum;
     }
 
-    public String getAPEMAT_ALU() {
-        return APEMAT_ALU;
+    public String getApelliAlum() {
+        return ApelliAlum;
     }
 
-    public void setAPEMAT_ALU(String APEMAT_ALU) {
-        this.APEMAT_ALU = APEMAT_ALU;
+    public void setApelliAlum(String ApelliAlum) {
+        this.ApelliAlum = ApelliAlum;
     }
 
-    public String getDNI_ALU() {
-        return DNI_ALU;
+    public int getDniAlum() {
+        return DniAlum;
     }
 
-    public void setDNI_ALU(String DNI_ALU) {
-        this.DNI_ALU = DNI_ALU;
+    public void setDniAlum(int DniAlum) {
+        this.DniAlum = DniAlum;
     }
 
-    public String getFEC_NAC_ALU() {
-        return FEC_NAC_ALU;
+    public String getDirecAlum() {
+        return DirecAlum;
     }
 
-    public void setFEC_NAC_ALU(String FEC_NAC_ALU) {
-        this.FEC_NAC_ALU = FEC_NAC_ALU;
+    public void setDirecAlum(String DirecAlum) {
+        this.DirecAlum = DirecAlum;
     }
 
-
-
-    public String getTURN_ALU() {
-        return TURN_ALU;
+    public String getCorreoAlum() {
+        return CorreoAlum;
     }
 
-    public void setTURN_ALU(String TURN_ALU) {
-        this.TURN_ALU = TURN_ALU;
+    public void setCorreoAlum(String CorreoAlum) {
+        this.CorreoAlum = CorreoAlum;
     }
 
-    public String getTEL_ALU() {
-        return TEL_ALU;
+    public int getTelefAlum() {
+        return TelefAlum;
     }
 
-    public void setTEL_ALU(String TEL_ALU) {
-        this.TEL_ALU =TEL_ALU ;
+    public void setTelefAlum(int TelefAlum) {
+        this.TelefAlum = TelefAlum;
     }
 
-    public String getPAS_ALU() {
-        return PAS_ALU;
+    public int getEdadAlum() {
+        return EdadAlum;
     }
 
-    public void setPAS_ALU(String PAS_ALU) {
-        this.PAS_ALU = PAS_ALU;
+    public void setEdadAlum(int EdadAlum) {
+        this.EdadAlum = EdadAlum;
     }
-    
+
+    public int getCodApod() {
+        return CodApod;
+    }
+
+    public void setCodApod(int CodApod) {
+        this.CodApod = CodApod;
+    }
+
+    public int getCodMod() {
+        return CodMod;
+    }
+
+    public void setCodMod(int CodMod) {
+        this.CodMod = CodMod;
+    }
+
     
 }
