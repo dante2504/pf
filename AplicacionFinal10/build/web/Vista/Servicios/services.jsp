@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Studies Plus a Education School Category Flat Bootstrap Responsive Web Template | Services :: w3layouts</title>
+<title>Nuestros Servicios</title>
 <!--css-->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -85,21 +85,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<i class="glyphicon glyphicon-book" aria-hidden="true"></i>
 							</div>
 							<h4>lecciones academicas</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							<p>Dictamos una amplia diversidad de cursos de primeria, secundaria y algunos cursos universitarios.</p>
 						</div>
 						<div class="col-md-4 ser-grid">
 							<div class="icon">
 								<i class="glyphicon glyphicon-music" aria-hidden="true"></i>
 							</div>						
 							<h4>Clases de musica</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							<p>Las clases son muy dinamicas dictamo clases de flauta y guitarra.</p>
 						</div>
 						<div class="col-md-4 ser-grid">
 							<div class="icon">
 								<i class="glyphicon glyphicon-heart" aria-hidden="true"></i>
 							</div>	
-							<h4>Creative Writing</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							<h4>Clases de Reposteria</h4>
+							<p>Pensando en nuestros alumnos ofrecemos en nuestras clases de reposteria les enseñamos a preparar deliciosos postres .</p>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -109,21 +109,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<i class="glyphicon glyphicon-pencil" aria-hidden="true"></i>
 							</div>
 							<h4>Actividades artisticas</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							<p>Ofrecenos clases de baile a nuestros alumno pensando en ofrecer sana diversion.</p>
 						</div>
 						<div class="col-md-4 ser-grid">
 							<div class="icon">
 								<i class="glyphicon glyphicon-cog" aria-hidden="true"></i>
 							</div>						
-							<h4>Outdoor Play</h4>
+							<h4>Clases de manualidades</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 						</div>
 						<div class="col-md-4 ser-grid">
 							<div class="icon">
 								<i class="glyphicon glyphicon-magnet" aria-hidden="true"></i>
 							</div>	
-							<h4>Playing Science</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							<h4>Experimentos</h4>
+							<p>.</p>
 						</div>
 						<div class="clearfix"></div>
 					</div>

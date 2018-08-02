@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Studies Plus a Education School Category Flat Bootstrap Responsive Web Template | About :: w3layouts</title>
+<title>Nosotros</title>
 <!--css-->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -85,7 +85,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="about-grids">
 						<div class="col-md-6 about-grid">
 						 <h4>Nuestro Comienzo</h4>
-							 <p>El grupo de estudios ?GRUPO CERO? nace un 2 de diciembre del 2017 fundada por los alumnos estudiantes
+							 <p>El grupo de estudios GRUPO CERO nace un 2 de diciembre del 2017 fundada por los alumnos estudiantes
                                                              de ingeniería de la UNFV Jesús Harry León Pérez y Janeth Roxana Jurado Quiñones al ver la gran necesidad 
                                                              de los padres de familia en buscar un profesor particular de matemáticas a final
                                                              apostando por una nueva metodología de enseñanza ?METODO MONTESSORI?
@@ -94,7 +94,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							
 						 </div>
 						<div class="col-md-6 video-grid">
-							<iframe src="https://player.vimeo.com/video/78554725?color=741731&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+							<img src="<%=request.getContextPath()%>/images/niños.jpg" class="img-responsive" alt="/">
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -107,9 +107,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h3 class="tittle">NUESTRA MISION Y VISION</h3>
 						<div class="what-grids">
 							<div class="col-md-6 what-grid">
-								<div class="mask">
-									<img src="images/9.jpg" class="img-responsive zoom-img" />
-								</div>
+								
 								<div class="what-bottom">
 									<h4>MISION</h4>
 									<p>Brindar educación e información de calidad, elaborando una ruta de vida de cada estudiante para formar buenos líderes y cumplir sus objetivos profesionales.</p>
@@ -117,12 +115,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="col-md-6 what-grid">
 								<div class="what-bottom1">
-									<h4>VISION</h4>
+									<h4>VISION
+                                                                        
+                                                                        </h4>
 									<p>Ser reconocido como el mejor centro en formación estudiantil del país. </p>
 								</div>
-								<div class="mask">
-									<img src="images/8.jpg" class="img-responsive zoom-img" />
-								</div>
+								
 							</div>
 							<div class="clearfix"></div>
 						</div>
@@ -139,40 +137,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="staff-grids">
 							<div class="col-md-6 staff-grid">
 								<div class="staff-left">
-									<img src="images/t1.jpg" class="img-responsive" alt="/">
+									<img src="<%=request.getContextPath()%>/images/profe.jpg" class="img-responsive" alt="/">
 								</div>
 								<div class="staff-right">
-									<h4>John Nguyen</h4>
+									<h4>Jesus León</h4>
 									<ul>
-										<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i> Office : 0041-456-3692</li>
-										<li><i class="glyphicon glyphicon-phone" aria-hidden="true"></i> Mobile : 0200-123-4567</li>
-										<li><i class="glyphicon glyphicon-print" aria-hidden="true"></i> Fax : 0091-789-456100</li>
+										
+										<li><i class="glyphicon glyphicon-phone" aria-hidden="true"></i> Celular : 0200-123-4567</li>
+										<li><i class="glyphicon glyphicon-time" aria-hidden="true"></i> Profesor : Matematicas y Música</li>
 									</ul>
 									<div class="social-icons">
 										<a href="#"><i class="icon1"></i></a>
 										<a href="#"><i class="icon2"></i></a>
-										<a href="#"><i class="icon3"></i></a>
-										<a href="#"><i class="icon4"></i></a>
+									
 									</div>
 								</div>
 								<div class="clearfix"></div>
 							</div>
 							<div class="col-md-6 staff-grid">
 								<div class="staff-left">
-									<img src="images/t2.jpg" class="img-responsive" alt="/">
+									<img src="<%=request.getContextPath()%>/images/janeth.jpg" class="img-responsive" alt="/">
 								</div>
 								<div class="staff-right">
-									<h4>Sydney Taft</h4>
+									<h4>Janeth Sanchez</h4>
 									<ul>
-										<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i> Office : 0041-456-3692</li>
-										<li><i class="glyphicon glyphicon-phone" aria-hidden="true"></i> Mobile : 0200-123-4567</li>
-										<li><i class="glyphicon glyphicon-print" aria-hidden="true"></i> Fax : 0091-789-456100</li>
+										
+										<li><i class="glyphicon glyphicon-phone" aria-hidden="true"></i> Celular : 0200-123-4567</li>
+										<li><i class="glyphicon glyphicon-time" aria-hidden="true"></i> Profesora : Reposteria y ciencias</li>
 									</ul>
 									<div class="social-icons">
 										<a href="#"><i class="icon1"></i></a>
 										<a href="#"><i class="icon2"></i></a>
-										<a href="#"><i class="icon3"></i></a>
-										<a href="#"><i class="icon4"></i></a>
+										
 									</div>
 								</div>
 								<div class="clearfix"></div>
@@ -182,40 +178,39 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="staff-grids">
 							<div class="col-md-6 staff-grid">
 								<div class="staff-left">
-									<img src="images/t3.jpg" class="img-responsive" alt="/">
+									<img src="<%=request.getContextPath()%>/images/profeletras.jpg" class="img-responsive" alt="/">
 								</div>
 								<div class="staff-right">
-									<h4>Michael Feng</h4>
+									<h4>Ana olivarez</h4>
 									<ul>
-										<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i> Office : 0041-456-3692</li>
-										<li><i class="glyphicon glyphicon-phone" aria-hidden="true"></i> Mobile : 0200-123-4567</li>
-										<li><i class="glyphicon glyphicon-print" aria-hidden="true"></i> Fax : 0091-789-456100</li>
+										
+										<li><i class="glyphicon glyphicon-phone" aria-hidden="true"></i> Celurar : 0200-123-4567</li>
+										<li><i class="glyphicon glyphicon-time" aria-hidden="true"></i> Profesora : Letras</li>
 									</ul>
 									<div class="social-icons">
 										<a href="#"><i class="icon1"></i></a>
 										<a href="#"><i class="icon2"></i></a>
-										<a href="#"><i class="icon3"></i></a>
-										<a href="#"><i class="icon4"></i></a>
+
 									</div>
 								</div>
 								<div class="clearfix"></div>
 							</div>
 							<div class="col-md-6 staff-grid">
 								<div class="staff-left">
-									<img src="images/t4.jpg" class="img-responsive" alt="/">
+									<img src="<%=request.getContextPath()%>/images/profebaile.jpg" class="img-responsive" alt="/">
 								</div>
 								<div class="staff-right">
-									<h4>Stacy Barron</h4>
+									<h4>Alison Guillen</h4>
 									<ul>
-										<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i> Office : 0041-456-3692</li>
-										<li><i class="glyphicon glyphicon-phone" aria-hidden="true"></i> Mobile : 0200-123-4567</li>
-										<li><i class="glyphicon glyphicon-print" aria-hidden="true"></i> Fax : 0091-789-456100</li>
+										
+										<li><i class="glyphicon glyphicon-phone" aria-hidden="true"></i> Celular : 0200-123-4567</li>
+										<li><i class="glyphicon glyphicon-time" aria-hidden="true"></i> Profesora : Baile</li>
 									</ul>
 									<div class="social-icons">
 										<a href="#"><i class="icon1"></i></a>
 										<a href="#"><i class="icon2"></i></a>
-										<a href="#"><i class="icon3"></i></a>
-										<a href="#"><i class="icon4"></i></a>
+										
+										
 									</div>
 								</div>
 								<div class="clearfix"></div>
@@ -261,7 +256,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<a href="#"><i class="icon4"></i></a>
 					</div>
 					<div class="copy">
-						<p>&copy; 2018  UNFV . Todos los derechos reservados | Diseñado por <a href="http://w3layouts.com"> Mi</a></p>
+						<p>&copy; 2018  UNFV . Todos los derechos reservados | Diseñado por <a href="#"> Grupo 04</a></p>
 					</div>
 				</div>
 			</div>

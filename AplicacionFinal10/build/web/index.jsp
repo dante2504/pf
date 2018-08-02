@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Studies Plus a Education School Category Flat Bootstrap Responsive Web Template | Home :: w3layouts</title>
+<title>Grupo Cero</title>
 <!--css-->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -84,19 +84,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                 <!-- First-Slide -->
                 <div class="item active">
-                    <img src="images/pc2.png" alt="">
+                    <img src="<%=request.getContextPath()%>/images/pc2.png" alt="">
                     
                 </div>
 
                 <!-- Second-Slide -->
                 <div class="item">
-                    <img src="images/pc3.png" alt="" class="img-responsive" />
+                    <img src="<%=request.getContextPath()%>/images/taller.jpg" alt="" class="img-responsive" />
                     
                 </div>
 
                 <!-- Third-Slide -->
                 <div class="item">
-                    <img src="images/pc1.png" alt="" class="img-responsive"/>
+                    <img src="<%=request.getContextPath()%>/images/pc1.png" alt="" class="img-responsive"/>
                     
                 </div>
 
@@ -140,7 +140,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                                     <img src="images/educ9.jpg"  class="img-responsive" alt="Image-2">
 								</div>
 								<div class="text-desc">
-									<h4>Studies</h4>
+									<h4>GRUPO CERO</h4>
 								</div>
 							</div>
 							<div class="port-7 effect-2">
@@ -148,7 +148,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                                     <img src="images/educ8.jpg"  class="img-responsive" alt="Image-2">
 								</div>
 								<div class="text-desc">
-									<h4>Studies</h4>
+									<h4>GRUPO CERO</h4>
 								</div>
 							</div>
 						</div>
@@ -162,7 +162,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                                      <img src="images/foto-004.jpg"  class="img-responsive" alt="Image-2">
 								</div>
 								<div class="text-desc">
-									<h4>Studies</h4>
+									<h4>GRUPO CERO</h4>
 								</div>
 							</div>
 							<div class="port-7 effect-2">
@@ -170,7 +170,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                                     <img src="images/educ11.jpg"  class="img-responsive" alt="Image-2"/>
 								</div>
 								<div class="text-desc">
-									<h4>Studies</h4>
+									<h4>GRUPO CERO</h4>
 								</div>
 							</div>
 						</div>
@@ -185,32 +185,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h3 class="tittle"> NUESTROS ESTUDIANTES</h3>
 					<div class="student-grids">
 						<div class="col-md-6 student-grid">
-							<h4>The standard chunk of Lorem Ipsum</h4>
-								<p>Donec sagittis interdum tellus sed bibendum. Aen ean fringilla ut lacus eu vehicula. Curabitur non nibh quis nisi vestibulum aliquet non sed dolor. Ut est risus, consectetur sit amet pretium in, cursus in dui. Donec ac rhoncus libero.</p>
-								<p>In neque arcu, vulputate vitae dignissim id, placerat adipiscing lorem. Nulla consectetur adipiscing metus vel pulvinar. Aenean molestie mauris non diam tincidunt faucibus.</p>
+							<h4>EN GRUPO CERO</h4>
+								<p>Desde temprana edad buscamos que su hijo obtenga el éxito profesional ya que  aqui en GRUPO CERO facilitaremos su aprendizaje y rendimiento desde cero hasta lo mas complejo.</p>
+								<p>Todo esto sin dejar de lado la parte didactica y recreativa que siempre es necesaria todo esto es lo que encontrará en GRUPO CERO.</p>
 								<ul class="grid-part">
-									<li><i class="glyphicon glyphicon-ok-sign"> </i>Praesent vestibulum molestie lacus</li>
-									<li><i class="glyphicon glyphicon-ok-sign"> </i>Donec sagittis interdum tellusplacerat adipiscing</li>
-									<li><i class="glyphicon glyphicon-ok-sign"> </i>Nulla consectetur adipiscing</li>
-									<li><i class="glyphicon glyphicon-ok-sign"> </i>Donec ac rhoncus libero vestibulum aliquet</li>
-									<li><i class="glyphicon glyphicon-ok-sign"> </i>Erci eu tincidunt lacinia sit amet pretium</li>
+									<li><i class="glyphicon glyphicon-ok-sign"> </i>Precios super bajos</li>
+									<li><i class="glyphicon glyphicon-ok-sign"> </i>Horarios Accesibles</li>
+									<li><i class="glyphicon glyphicon-ok-sign"> </i>Variedad de cursos</li>
+									<li><i class="glyphicon glyphicon-ok-sign"> </i>Profesores con experiencia</li>
+									
 								</ul>
 
 						</div>
 						<div class="col-md-6 student-grid">
-							<img src="images/w6.jpg" class="img-responsive" alt="Image-2">
+							<img src="<%=request.getContextPath()%>/images/primariayo.jpg" class="img-responsive" alt="Image-2">
 						</div>
 						<div class="clearfix"></div>
 					</div>
 				</div>
 			</div>
-			<!--student-->
 			
-				
-			
-			<!--news-->
-			
-			<!--news-->
 		</div>
 		<!--content-->
 		<!--footer-->
@@ -219,8 +213,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="footer-grids">
 						<div class="col-md-4 footer-grid">
 							<h4>Acerca de nosotros</h4>
-							<p>GRUPO CERO ES UN GRUPO ESTUDIANTIL MATEMÁTICO NACIDO CON LA FINALIDAD DE ALCANZAR EL ÉXITO PROFESIONAL DE SUS ALUMNOS . <span> ENSEÑÁNDOLES DESDE LO MAS BÁSICO DE FORMA DIDÁCTICA Y SENCILLA HASTA LO MAS COMPLEJO 
-								.</span></p>
+							<p>GRUPO CERO ES UN GRUPO ESTUDIANTIL NACIDO CON LA FINALIDAD DE ALCANZAR EL ÉXITO PROFESIONAL DE SUS ALUMNOS . <span> ENSEÑÁNDOLES DESDE LO MAS BÁSICO DE FORMA DIDÁCTICA Y SENCILLA HASTA LO MAS COMPLEJO.</span></p>
 						</div>
 						
 						<div class="col-md-4 footer-grid">
@@ -244,10 +237,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<a href="#"><i class="icon1"></i></a>
 						<a href="#"><i class="icon2"></i></a>
 						<a href="#"><i class="icon3"></i></a>
-						<a href="#"><i class="icon4"></i></a>
 					</div>
 					<div class="copy">
-						<p>&copy; 2018  UNFV . Todos los derechos reservados | Diseñado por <a href="http://w3layouts.com"> Mi</a></p>
+						<p>&copy; 2018  UNFV . Todos los derechos reservados | Diseñado por <a href="#"> </a> GRUPO 04</p>
 					</div>
 				</div>
 			</div>
