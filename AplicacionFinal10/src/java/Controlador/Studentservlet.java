@@ -44,6 +44,7 @@ public class Studentservlet extends HttpServlet {
 
            */
             getServletContext().getRequestDispatcher("/Vista/Principal/FrmPrincipalAlumno.jsp").forward(request,response);
+            break;
            }
             case 3:{
                 getServletContext().getRequestDispatcher("/Vista/Alumno/FrmMostrarDatosAlumno.jsp").forward(request,response);  

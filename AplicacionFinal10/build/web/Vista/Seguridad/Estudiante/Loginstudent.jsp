@@ -28,7 +28,7 @@
 
             <div class="form-group text-center">
 
-                <button type="button" class="btn btn-primary"   onclick="usuario()('<%=request.getContextPath()%>','/Studentservlet', 1)">
+                <button type="button" class="btn btn-primary"   onclick="usuario('<%=request.getContextPath()%>','/Studentservlet', 2)">
                    Iniciar Sesión
                 </button>
             </div>   
