@@ -116,14 +116,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<i class="glyphicon glyphicon-cog" aria-hidden="true"></i>
 							</div>						
 							<h4>Clases de manualidades</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							<p> La clases son muy didacticas y le enseñamos al estudiante manualidad que lo puede realizar en casa.</p>
 						</div>
 						<div class="col-md-4 ser-grid">
 							<div class="icon">
 								<i class="glyphicon glyphicon-magnet" aria-hidden="true"></i>
 							</div>	
 							<h4>Experimentos</h4>
-							<p>.</p>
+							<p>Dictamos clases de experimentos que son educativas a la vez de divertidad para el estudiante.</p>
 						</div>
 						<div class="clearfix"></div>
 					</div>

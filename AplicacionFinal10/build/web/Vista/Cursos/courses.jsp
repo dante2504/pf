@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Studies Plus a Education School Category Flat Bootstrap Responsive Web Template | Courses :: w3layouts</title>
+<title>Cursos</title>
 <!--css-->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -84,35 +84,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="course-grids">
 						<div class="col-md-6 course-grid">
 							<div class="mask">
-								<img src="images/c1.jpg" class="img-responsive zoom-img" />
+								<img src="images/gratis.jpg" class="img-responsive zoom-img" />
 							</div>
 						</div>
 						<div class="col-md-6 course-grid1 gri">
-							<h4>Mechanical Engineering</h4>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci.</p>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci.</p>
+							<h4>Ciclo del Ingeniero</h4>
+							<p>En este ciclo le enseñamos al alumno todo lo que necesita saber ssobre Matematicas,letras,ciencianaturales.</p>
+					
 							<ul class="grid-part">
-								<li><i class="glyphicon glyphicon-ok-sign"> </i>Praesent vestibulum molestie lacus</li>
-								<li><i class="glyphicon glyphicon-ok-sign"> </i>Donec sagittis interdum tellusplacerat adipiscing</li>
-								<li><i class="glyphicon glyphicon-ok-sign"> </i>Nulla consectetur adipiscing</li>
+								<li><i class="glyphicon glyphicon-ok-sign"> </i>Nuestras asesorias no solo son he hora de clase sino tambien fuera</li>
+								<li><i class="glyphicon glyphicon-ok-sign"> </i>Puedes comunicarte con nuestros profesores para resolver alguna duda</li>
+								<li><i class="glyphicon glyphicon-ok-sign"> </i>Brindamos una educación buena y de calidad</li>
 							</ul>
 						</div>
 						<div class="clearfix"></div>
 					</div>
 					<div class="course-grids">
 						<div class="col-md-6 course-grid1">
-							<h4>Information Technology</h4>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci.</p>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci.</p>
+							<h4>Baile</h4>
+							<p>Nuestros alumnos contarán con la destresa y agilidad, y capacidad de dominar cualquier ritmo de baile.</p>
 							<ul class="grid-part">
-								<li><i class="glyphicon glyphicon-ok-sign"> </i>Praesent vestibulum molestie lacus</li>
-								<li><i class="glyphicon glyphicon-ok-sign"> </i>Donec sagittis interdum tellusplacerat adipiscing</li>
-								<li><i class="glyphicon glyphicon-ok-sign"> </i>Nulla consectetur adipiscing</li>
+								<li><i class="glyphicon glyphicon-ok-sign"> </i>Aprenderan bailes diversos generos de baile</li>
+								<li><i class="glyphicon glyphicon-ok-sign"> </i>Capacidad de de destereza</li>
+								
 							</ul>
 						</div>
 						<div class="col-md-6 course-grid gri">
 							<div class="mask">
-								<img src="images/c2.jpg" class="img-responsive zoom-img" />
+								<img src="images/baile2.jpg" class="img-responsive zoom-img" />
 							</div>
 						</div>
 						<div class="clearfix"></div>
@@ -120,35 +119,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="course-grids">
 						<div class="col-md-6 course-grid">
 							<div class="mask">
-								<img src="images/c3.jpg" class="img-responsive zoom-img" />
+								<img src="images/queque.jpg" class="img-responsive zoom-img" />
 							</div>
 						</div>
 						<div class="col-md-6 course-grid1 gri">
-							<h4>Computer Science</h4>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci.</p>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci.</p>
+							<h4>Reposteria</h4>
+							<p>Los alumnos aprenderan a preparar postres deliciososde manera agil y didactica.</p>
+							
 							<ul class="grid-part">
-								<li><i class="glyphicon glyphicon-ok-sign"> </i>Praesent vestibulum molestie lacus</li>
-								<li><i class="glyphicon glyphicon-ok-sign"> </i>Donec sagittis interdum tellusplacerat adipiscing</li>
-								<li><i class="glyphicon glyphicon-ok-sign"> </i>Nulla consectetur adipiscing</li>
+								<li><i class="glyphicon glyphicon-ok-sign"> </i>Los poestres que preparamos tienen un fin recreativo.</li>
+								<li><i class="glyphicon glyphicon-ok-sign"> </i>Diversidad de recetas para preparar</li>
+								
 							</ul>
 						</div>
 						<div class="clearfix"></div>
 					</div>
 					<div class="course-grids">
 						<div class="col-md-6 course-grid1">
-							<h4>Chemical Engineering</h4>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci.</p>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci.</p>
+							<h4>Ciencias Naturales</h4>
+							<p>Dictamos clases de fisica y quimica de nivel primerio y secundario.</p>
+							
 							<ul class="grid-part">
-								<li><i class="glyphicon glyphicon-ok-sign"> </i>Praesent vestibulum molestie lacus</li>
-								<li><i class="glyphicon glyphicon-ok-sign"> </i>Donec sagittis interdum tellusplacerat adipiscing</li>
-								<li><i class="glyphicon glyphicon-ok-sign"> </i>Nulla consectetur adipiscing</li>
+								<li><i class="glyphicon glyphicon-ok-sign"> </i>Aprenderan de manera didactica</li>
+								<li><i class="glyphicon glyphicon-ok-sign"> </i>Profesore especializados</li>
+								
 							</ul>
 						</div>
 						<div class="col-md-6 course-grid gri">
 						<div class="mask">
-								<img src="images/c4.jpg" class="img-responsive zoom-img" />
+								<img src="images/primaria.jpg" class="img-responsive zoom-img" />
 							</div>
 						</div>
 						<div class="clearfix"></div>
