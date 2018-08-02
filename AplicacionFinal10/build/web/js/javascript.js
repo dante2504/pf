@@ -32,22 +32,22 @@ function  usuario(ruta,controlador,op)
          var  usuario=document.getElementById("txtusu").value;
          var  clave= document.getElementById("txtcla").value;
       
-    if(controlador=="PersonalServlet") 
+    if(controlador==="PersonalServlet") 
     {       
          var tiposuario=document.getElementById("tipousu").value;
          
-      if(tiposuario=="0")
+      if(tiposuario==="0")
       {
           alert("Seleccione el  Tipo de Usuario");
           document.getElementById("tipousu").focus();
           return;
       }
-      else if( usuario=="")
+      else if( usuario==="")
       {
           alert("Ingrese  Usuario !!!");
           document.getElementById("txtusu").focus();
           return;
-      }else if(clave=="")
+      }else if(clave==="")
       {
           alert("Ingrese  Clave !!!");
           document.getElementById("txtcla").focus();
@@ -63,12 +63,12 @@ function  usuario(ruta,controlador,op)
       
     }else
     {
-               if( usuario=="")
+               if( usuario==="")
               {
                   alert("Ingrese  Usuario !!!");
                   document.getElementById("txtusu").focus();
                   return;
-              }else if(clave=="")
+              }else if(clave==="")
               {
                   alert("Ingrese  Clave !!!");
                   document.getElementById("txtcla").focus();
@@ -98,7 +98,7 @@ function  usuario(ruta,controlador,op)
     }
     xmlhttp.onreadystatechange = function ()
     {
-        if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+        if (xmlhttp.readyState === 4 && xmlhttp.status === 200)
         {
             document.getElementById('contenido').innerHTML = xmlhttp.responseText;
         }
@@ -120,7 +120,7 @@ function  Datos(ruta,controlador,op,ab)
     }
     xmlhttp.onreadystatechange = function ()
     {
-        if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+        if (xmlhttp.readyState === 4 && xmlhttp.status === 200)
         {
             document.getElementById('contenido').innerHTML = xmlhttp.responseText;
         }
@@ -133,12 +133,12 @@ function  entrar(ruta, controlador, op){
     var  clave= document.getElementById("txtpass").value;
     var par="";
       
-    if( usuario==""){
+    if( usuario===""){
             alert("Ingrese  Usuario !!!");
             document.getElementById("txtusuario").focus();
             return;
         }else{
-            if(clave==""){
+            if(clave===""){
             alert("Ingrese  Clave !!!");
             document.getElementById("txtpass").focus();
             return;          
@@ -158,32 +158,32 @@ function  entrar(ruta, controlador, op){
     var  apellido2= document.getElementById("txtapellido2").value;
     var  usuario=document.getElementById("txtusuario").value;
     var  clave= document.getElementById("txtpass").value;
-    if(dni==""){
+    if(dni===""){
         alert("Ingrese  Dni !!!");
         document.getElementById("txtdni").focus();
         return;
     }else{
-        if(nombre==""){
+        if(nombre===""){
             alert("Ingrese  el nombre !!!");
             document.getElementById("txtnombre").focus();
             return;
         }else{
-            if(apellido1==""){
+            if(apellido1===""){
                 alert("Ingrese  apellido paterno !!!");
                 document.getElementById("txtapellido1").focus();
                 return;
             }else{
-                if(apellido2==""){
+                if(apellido2===""){
                     alert("Ingrese  apellido materno !!!");
                     document.getElementById("txtapellido2").focus();
                     return;
                 }else{
-                    if(usuario==""){
+                    if(usuario===""){
                         alert("Ingrese  Usuario !!!");
                         document.getElementById("txtusuario").focus();
                         return;
                     }else{
-                        if(clave==""){
+                        if(clave===""){
                             alert("Ingrese  la clave !!!");
                             document.getElementById("txtpass").focus();
                             return;
@@ -204,22 +204,22 @@ function  entrar(ruta, controlador, op){
                 var  nombre= document.getElementById("txtnombre").value;
                 var  horas= document.getElementById("txthoras").value;
                 var  carrera=document.getElementById("cbocarrera").value;
-                if(codigo==""){
+                if(codigo===""){
                     alert("Ingrese codigo !!!");
                     document.getElementById("codigo").focus();
                     return;
                 }else{
-                    if(nombre==""){
+                    if(nombre===""){
                         alert("Ingrese la Asignatura !!!");
                         document.getElementById("txtnombre").focus();
                         return;
                     }else{
-                        if(horas==""){
+                        if(horas===""){
                             alert("Ingrese la Cantidad de Horas !!!");
                             document.getElementById("txthoras").focus();
                             return;
                         }else{
-                            if(carrera==""){
+                            if(carrera===""){
                                 alert("Ingrese  Carrera !!!");
                                 document.getElementById("cbocarrera").focus();
                                 return;
@@ -234,12 +234,12 @@ function  entrar(ruta, controlador, op){
 function registrarca(ruta,controlador,op){
     var  codigo=document.getElementById("codigo").value;
     var  nombre= document.getElementById("txtnombre").value;
-    if(codigo==""){
+    if(codigo===""){
         alert("Ingrese codigo !!!");
         document.getElementById("codigo").focus();
         return;
     }else{
-        if(nombre==""){
+        if(nombre===""){
             alert("Ingrese  Carrera !!!");
             document.getElementById("txtnombre").focus();
             return;
@@ -330,7 +330,7 @@ function registrarca(ruta,controlador,op){
  
         function guardar(e,obj,ruta,id,ab){
             tecla=(document.all) ? e.keyCode : e.which;
-            if(tecla==13){
+            if(tecla===13){
                 var e1=document.getElementById(id+"1").value;
                 var e2=document.getElementById(id+"2").value;
                 var ep=document.getElementById(id+"p").value;
@@ -338,12 +338,12 @@ function registrarca(ruta,controlador,op){
                 var e4=document.getElementById(id+"4").value;
                 var ef=document.getElementById(id+"f").value;
                     
-                    if(e1=='')e1='0';
-                    if(e2=='')e2='0';
-                    if(ep=='')ep='0';
-                    if(e3=='')e3='0';
-                    if(e4=='')e4='0';
-                    if(ef=='')ef='0';
+                    if(e1==='')e1='0';
+                    if(e2==='')e2='0';
+                    if(ep==='')ep='0';
+                    if(e3==='')e3='0';
+                    if(e4==='')e4='0';
+                    if(ef==='')ef='0';
                     
                 var par="&n1="+e1+"&n2="+e2+"&np="+ep+"&n3="+e3+"&n4="+e4+"&nf="+ef+"&txtnot="+ab;
                 Datos(ruta,'ProfesorServlet',4,par);    

@@ -7,7 +7,7 @@ public class ConexionBD
         try 
         {
           Class.forName("com.mysql.jdbc.Driver");
-          cn=DriverManager.getConnection("jdbc:mysql://localhost/*","root","");
+          cn=DriverManager.getConnection("jdbc:mysql://localhost:3306/grupocero","root","");
              System.out.println("Se Conecto !!");
         } catch (Exception e) 
         { 
