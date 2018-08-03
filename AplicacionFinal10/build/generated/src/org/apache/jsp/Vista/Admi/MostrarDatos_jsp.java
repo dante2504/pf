@@ -1,4 +1,4 @@
-package org.apache.jsp;
+package org.apache.jsp.Vista.Admi;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -6,7 +6,7 @@ import javax.servlet.jsp.*;
 import java.util.ArrayList;
 import Bean.StudentBean;
 
-public final class FrmMostrarDatosAlumno_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class MostrarDatos_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -101,7 +101,7 @@ public final class FrmMostrarDatosAlumno_jsp extends org.apache.jasper.runtime.H
       out.write("\t\t\t\t\t\t\t\t<span class=\"icon-bar\"></span>\r\n");
       out.write("\t\t\t\t\t\t\t</button>\t\t\t\t  \r\n");
       out.write("\t\t\t\t\t\t\t<div class=\"navbar-brand\">\r\n");
-      out.write("\t\t\t\t\t\t\t\t<h1><a href=\"index.jsp\">Datos</a></h1>\r\n");
+      out.write("\t\t\t\t\t\t\t\t<h1><a href=\"index.jsp\">Datos de Administrador</a></h1>\r\n");
       out.write("\t\t\t\t\t\t\t</div>\r\n");
       out.write("\t\t\t\t\t\t</div>\r\n");
       out.write("\r\n");
@@ -134,6 +134,7 @@ public final class FrmMostrarDatosAlumno_jsp extends org.apache.jasper.runtime.H
       out.write("   \r\n");
       out.write("    </body>\r\n");
       out.write("</html>\r\n");
+      out.write("\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

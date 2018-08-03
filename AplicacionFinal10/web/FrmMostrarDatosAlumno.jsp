@@ -74,59 +74,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</nav>
 			</div>
 		</div>
-    <center>
-            <form name="form">
-                <input type="hidden" name="op">
-<%----------------------------------------------------------------------------------------------------------------%>
-                    <div style="background-color: #556">
-                        <div class="divi2">
-                            <ul>
-                                <li class="divi22"><center><%=objEstu.getNOMB_ALU()%> <%=objEstu.getAPEPAT_ALU()%> <%=objEstu.getAPEMAT_ALU()%> <a style="padding-left: 300px;">Codigo: <%=objEstu.getCOD_ALU()%></a></center></li>
-                            </ul>
-                        </div>
-                      
-                    </div>
-                    <div class="divc" style="padding-top: 90px;">
-                        <div class="panel">
-                        <table style="float: left">
-                            <tr>
-                                <td>
-                                    <img src="<%=request.getContextPath()%>/Imagenes/Foto/<%=objEstu.getCOD_ALU()%>.jpg" width="200px" height="280px" alt=""/>
-                                </td>
-                            </tr>
-                        </table>
-                        <table style="float: left">
-                            <tr class="filap">
-                                <td class="columna1">Codigo</td>
-                                <td class="columna2"><%=objEstu.getCOD_ALU()%></td>
-                                <td class="columna1">Dni</td>
-                                <td class="columna2"><%=objEstu.getDNI_ALU()%></td>
-                            </tr>
-                            <tr class="filap">
-                                <td class="columna1">Nombre</td>
-                                <td class="columna2"><%=objEstu.getNOMB_ALU()%></td>
-                                <td class="columna1">Telefono</td>
-                                <td class="columna2"><%=objEstu.getTEL_ALU()%></td>
-                            </tr>
-                            <tr class="filap">
-                                <td class="columna1">Apellido Paterno</td>
-                                <td class="columna2"><%=objEstu.getAPEPAT_ALU()%></td>
-                                <td class="columna1">Apellido Materno</td>
-                                <td class="columna2"><%=objEstu.getAPEMAT_ALU()%></td>
-                            </tr>
-                            <tr class="filap">
-                                <td class="columna1">Turno</td>
-                                <td class="columna2"><%=objEstu.getTURN_ALU()%></td>
-                                <td class="columna1">Fecha Nacimiento</td>
-                                <td class="columna2"><%=objEstu.getFEC_NAC_ALU()%></td>
-                            </tr>
-                            
-                       
-                        </table>
-                        </div>
-                    </div>
-<%----------------------------------------------------------------------------------------------------------------%>      
-            </form>
-        </center>
+   
     </body>
 </html>
