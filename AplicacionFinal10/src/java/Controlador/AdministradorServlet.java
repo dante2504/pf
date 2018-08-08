@@ -6,6 +6,7 @@
 package Controlador;
 
 import Bean.AdministradorBean;
+import DAO.AdministradorDAO;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -31,23 +32,23 @@ public class AdministradorServlet extends HttpServlet {
            
            }
            case 2:{
-                   int usuario=Integer.parseInt(request.getParameter("txtusua"));
+                /*   int usuario=Integer.parseInt(request.getParameter("txtusua"));
                 String clave=request.getParameter("txtcla");
              
              AdministradorBean  objAdministradorBean=new AdministradorBean();
                              objAdministradorBean.setCodAdmi(usuario);
                              objAdministradorBean.setPswAdmi(clave);
-             AdministradorDao   objAdmiDao=new AdministradorDao();
+             AdministradorDAO   objAdmiDao=new AdministradorDAO();
                        boolean estado= objAdmiDao.ValidarUsuario(objAdministradorBean);
                      if(estado==true)        
-                     {         
-                      pagina="/Vista/Principal/Administrador/PrincipalAdministrador.jsp";   
-                     }
+                     {    */     
+                      pagina="/Vista/Principal/FrmPrincipalAdministrador.jsp";   
+                    /* }
                      else
                      {
                       request.setAttribute("mensaje","Usuario y clave Incorrecto");
                       pagina="/Vista/Seguridad/Administrador/LoginAdministrador.jsp";
-                     }                      
+                     }        */              
                       break;
            }
             

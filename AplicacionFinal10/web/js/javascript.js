@@ -124,29 +124,29 @@ function  Datos(ruta,controlador,op,ab)
         {
             document.getElementById('contenido').innerHTML = xmlhttp.responseText;
         }
-    }
+    };
     xmlhttp.open("GET", paginamenu, true);
     xmlhttp.send(null);
  }
 function  entrar(ruta, controlador, op){
-    var  usuario=document.getElementById("txtusuario").value;
-    var  clave= document.getElementById("txtpass").value;
+    var  usuario=document.getElementById("txtusu").value;
+    var  clave= document.getElementById("txtcla").value;
     var par="";
       
     if( usuario===""){
             alert("Ingrese  Usuario !!!");
-            document.getElementById("txtusuario").focus();
+            document.getElementById("txtusu").focus();
             return;
-        }else{
+        }else
             if(clave===""){
             alert("Ingrese  Clave !!!");
-            document.getElementById("txtpass").focus();
+            document.getElementById("txtcla").focus();
             return;          
             }else{
-                par="&txtusuario="+usuario+"&txtpass="+clave;
+                par="txtusu="+usuario+"txtcla="+clave;
                 Datos(ruta,controlador,op,par);
             }
-        }
+       
     }
     
     

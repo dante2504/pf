@@ -4,6 +4,7 @@
         <title>Login</title>
         
         <link href="<%=request.getContextPath()%>/css/estilo.css" rel="stylesheet" type="text/css"/>
+        <script src="<%=request.getContextPath()%>/js/javascript.js"></script>
     </head>
     <body>
         <div class="login-box">
@@ -11,7 +12,7 @@
             <h1></h1>
             <form>
                
-					
+            
 					
                 
                 <div class="form-horizontal" role="form">
